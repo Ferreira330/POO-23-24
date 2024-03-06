@@ -13,5 +13,18 @@ public class AppText {
         c.setX(5);
         assertEquals(5, c.getX());
     }
+    @Test
+    public void testGetY() {
+        Circulo c = new Circulo();
+        assertEquals(0, c.getY());
+    }
+    @Test
+    public void testSetY() {
+        Circulo c = new Circulo();
+        c.setY(5);
+        assertEquals(5, c.getY());
+    }
+    //resto dos testes
+    
     
 }
